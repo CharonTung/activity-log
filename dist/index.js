@@ -32432,7 +32432,7 @@ const core = __nccwpck_require__(9619)
 // Main function to execute the update process
 async function main() {
     try {
-        const activity = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
+        const activity = await fetchAndFilterEvents({ username, token, eventLimit, targetRepos,ignoreEvents, });
         await updateReadme(activity, readmePath);
     } catch (error) {
         core.setFailed(`❌ Error in the update process: ${error.message}`);
