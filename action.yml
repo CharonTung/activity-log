@@ -26,6 +26,9 @@ inputs:
     description:  Commit Message
     required: false
     default:  Update README.md with latest activity
+  TARGET_REPOS:
+    description:  Only display events from target repos.
+    default: '[]'
 branding:
   color: red
   icon: activity
