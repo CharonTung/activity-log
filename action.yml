@@ -14,6 +14,9 @@ inputs:
   OUTPUT_STYLE:
     description:  Specifies the format in which the output should be rendered (MARKDOWN or HTML).
     default:  MARKDOWN
+  TARGET_REPOS:
+    description:  Only display events from target repos.
+    default: '[]'
   IGNORE_EVENTS:
     description:  The events to ignore, specified as a JSON array.
     required: false
@@ -26,9 +29,6 @@ inputs:
     description:  Commit Message
     required: false
     default:  Update README.md with latest activity
-  TARGET_REPOS:
-    description:  Only display events from target repos.
-    default: '[]'
 branding:
   color: red
   icon: activity
