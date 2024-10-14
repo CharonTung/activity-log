@@ -28,7 +28,6 @@ inputs:
     default:  Update README.md with latest activity
   TARGET_REPOS:
     description:  Only display events from target repos.
-    required: false
     default: '[]'
 branding:
   color: red
