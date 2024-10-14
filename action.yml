@@ -26,9 +26,6 @@ inputs:
     description:  Commit Message
     required: false
     default:  Update README.md with latest activity
-  TARGET_REPOS:
-    description: 'List of target repositories'
-    required: false
 branding:
   color: red
   icon: activity
